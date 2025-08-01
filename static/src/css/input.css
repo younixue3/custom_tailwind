@@ -4,10 +4,10 @@
 
 @layer components {
     .btn-mpa-primary {
-        @apply bg-mpa-primary border-2 border-mpa-primary text-white rounded-lg p-3;
+        @apply bg-mpa-primary border-2 border-mpa-primary text-white hover:text-white rounded-lg p-3;
     }
     
     .btn-mpa-outline {
-        @apply bg-white border-2 border-mpa-primary text-black rounded-lg p-3;
+        @apply bg-white border-2 border-mpa-primary text-black hover:text-black rounded-lg p-3;
     }
 }

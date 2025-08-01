@@ -294,8 +294,8 @@ module.exports = {
         900: '#881337',
         950: '#4c0519',
       },
-      'mpa-primary': '#FF5A00',
-      'mpa-secondary': '#3A68A3'
+      'mpa-primary': '#ea5931',
+      'mpa-secondary': '#3a68a2'
     },
     extend: {},
   },
