@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  important: true,
   content: ['./node_modules/flowbite/**/*.js', "../../custom/**/*.{html,js,xml}"], // Make sure to include your custom addons' paths here as well
   theme: {
     colors: {

@@ -11,3 +11,34 @@
         @apply bg-white border-2 border-mpa-primary text-black hover:text-black rounded-lg p-3;
     }
 }
+
+@layer utilities {
+    #wrapwrap {
+        position: unset !important;
+    }
+    /* Hide scrollbar for all browsers */
+    .no-scrollbar {
+        /* Chrome, Safari, Opera */
+        &::-webkit-scrollbar {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+        /* IE and Edge */
+        -ms-overflow-style: none;
+        /* Firefox */
+        scrollbar-width: none;
+        /* Universal fallback */
+        overflow: -moz-scrollbars-none;
+        scrollbar-color: transparent transparent;
+        &::-moz-scrollbar {
+            width: 0 !important;
+            display: none;
+        }
+        /* For older browsers */
+        scrollbar-track-color: transparent;
+        scrollbar-face-color: transparent;
+        scrollbar-arrow-color: transparent;
+        scrollbar-shadow-color: transparent;
+    }
+}
