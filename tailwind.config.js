@@ -3,6 +3,10 @@ module.exports = {
   important: true,
   content: ['./node_modules/flowbite/**/*.js', "../../custom/**/*.{html,js,xml}"], // Make sure to include your custom addons' paths here as well
   theme: {
+    fontFamily: {
+      'roboto': 'Roboto, sans-serif'
+
+    },
     colors: {
       inherit: 'inherit',
       current: 'currentColor',
