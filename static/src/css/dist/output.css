@@ -2188,10 +2188,6 @@ body{
   height: 100vh !important;
 }
 
-.h-24{
-  height: 6rem !important;
-}
-
 .max-h-full{
   max-height: 100% !important;
 }
@@ -2302,11 +2298,6 @@ body{
 
 .w-full{
   width: 100% !important;
-}
-
-.min-w-max{
-  min-width: -moz-max-content !important;
-  min-width: max-content !important;
 }
 
 .max-w-2xl{
@@ -4083,10 +4074,6 @@ body{
   font-weight: 600 !important;
 }
 
-.font-thin{
-  font-weight: 100 !important;
-}
-
 .uppercase{
   text-transform: uppercase !important;
 }
@@ -4715,31 +4702,6 @@ body{
 }
 
 /* Hide scrollbar for all browsers */
-
-.no-scrollbar {
-  /* Chrome, Safari, Opera */
-  &::-webkit-scrollbar {
-    display: none !important;
-    width: 0 !important;
-    height: 0 !important;
-  }
-  /* IE and Edge */
-  -ms-overflow-style: none !important;
-  /* Firefox */
-  scrollbar-width: none !important;
-  /* Universal fallback */
-  overflow: -moz-scrollbars-none !important;
-  scrollbar-color: transparent transparent !important;
-  &::-moz-scrollbar {
-    width: 0 !important;
-    display: none !important;
-  }
-  /* For older browsers */
-  scrollbar-track-color: transparent !important;
-  scrollbar-face-color: transparent !important;
-  scrollbar-arrow-color: transparent !important;
-  scrollbar-shadow-color: transparent !important;
-}
 
 @media (min-width: 640px){
   .sm\:container{
