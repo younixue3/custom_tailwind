@@ -1646,6 +1646,10 @@ body{
   bottom: 2.5rem !important;
 }
 
+.bottom-28{
+  bottom: 7rem !important;
+}
+
 .bottom-4{
   bottom: 1rem !important;
 }
@@ -5352,10 +5356,6 @@ body{
 
   .md\:text-left{
     text-align: left !important;
-  }
-
-  .md\:text-center{
-    text-align: center !important;
   }
 
   .md\:text-3xl{
