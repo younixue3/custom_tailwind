@@ -5354,6 +5354,10 @@ body{
     text-align: left !important;
   }
 
+  .md\:text-center{
+    text-align: center !important;
+  }
+
   .md\:text-3xl{
     font-size: 1.875rem !important;
     line-height: 2.25rem !important;
